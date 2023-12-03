@@ -1,1 +1,37 @@
-/*  your css code here. If applicable */
+.modal{
+	background-color:rgba(0,0,0,0.5);
+	height:100%;
+	width:100%;
+	left:0;
+	top:0;
+	overflow:auto;
+	z-index:1;
+	position:fixed;
+}
+.modal-content{
+	background-color:#fefefe;
+	margin:15% auto;
+	padding:20px;
+	border:1px solid #888;
+	width:80%;
+}
+.modal-header{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+.close-modal{
+	color:#aaa;
+	font-size:28px;
+	font-weight:bold;
+	cursor:pointer;
+}
+.close-modal:hover;
+.close-modal:focus{
+   color:black;
+   text-decoration:none;
+   cursor:pointer;
+}
+.modal-body{
+	margin-top:20px;
+}
