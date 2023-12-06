@@ -8,19 +8,20 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<button id="openModal">openModal</button>
-	<div class="modal">
-			<div class="modal-content">
-				<div class="modal-header">
+	<button id="openModal" onClick="onOpenModal()">Open Modal</button>
+	<div id="myModal" class=modal>
+		<div class="modal-content">
+			<div class="modal-header">
+				<div class="header-container">
 					<h2>Modal Header</h2>
-					<button class="close-modal"></button>
-					<div class="close-modal"></div>
 				</div>
-					<div class="modal-body">
-						<p>Modal body Content</p>
-				</div>
+				<div style="text-align:right;padding-right:10px;">
+					<button onClick="onCloseModal()" class="close-modal" style="height:30px;width:40px;background-color:red;color:white;">x</button>
+				</div>				
 			</div>
-		</div>
+		<div class="modal-body">
+		<p>Modal Body</p>
+	</div>
 		
     <script type="text/javascript" src="./script.js">
 </script>
